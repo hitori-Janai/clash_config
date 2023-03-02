@@ -1,3 +1,3 @@
 # clash_config
 
-自定义脚本转换切换
+https://cdn.jsdelivr.net/gh/ hitori-Janai/clash_config/ config/start.yml
