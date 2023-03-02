@@ -1,0 +1,31 @@
+proxy-groups:
+  - name: 手动选择
+    type: select
+    proxies:
+  - name: PROXY
+    type: select
+    proxies:
+      - ⚖️ 负载均衡-散列
+      - ⚖️ 负载均衡-轮询
+      - 手动选择
+      - DIRECT
+  - name: p1
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 500
+    proxies:
+      - 1
+  - name: ⚖️ 负载均衡-散列
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: consistent-hashing
+    proxies:
+      - 1
+  - name: ⚖️ 负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - 1
