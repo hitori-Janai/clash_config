@@ -1,8 +1,7 @@
 import test
 import crawler
 # Path of the `.yml` file 
-start_path = './config/start.yml'
-end_path = './config/end.yml' 
+
 proxies_path = './config/proxies.yml'
 config_path = './config/config.yml'
 
@@ -11,8 +10,7 @@ config = {}
 
 def main():
     proxies = test.readYml(proxies_path)
-    start = test.readYml(start_path)
-    end = test.readYml(end_path)
+    start, end = test.gennerate_other_group()
 
     # proxies["proxies"] = proxies["proxies"][:5]
 
@@ -26,5 +24,6 @@ def main():
 
 
 
+if __name__ == '__main__':
 # crawler.main()  
-main()
+    main()

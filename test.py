@@ -6,7 +6,9 @@ from random import shuffle
 proxies_path = './config/proxies.yml'
 
 group_path = './config/proxy_group/select.yml'
-
+start_path = './config/start.yml'
+end_path = './config/end.yml' 
+config_path = './config/config.yml'
 group_num = 5
 
 # 读取yml文件
@@ -48,6 +50,10 @@ def p_group(proxies_name, select):
         select['proxy-groups'].append(newp)
     return newp_names
 
+def gennerate_other_group():
+    start = readYml(start_path)
+    end = readYml(end_path)
+    return start,end
 
 def generate_group(path, proxies):
     group = select_group(path, [p['name'] for p in proxies["proxies"]])
