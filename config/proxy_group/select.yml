@@ -11,20 +11,20 @@ proxy-groups:
       - DIRECT
   - name: p1
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: http://www.apple.com/library/test/success.html
     interval: 500
     proxies:
       - 1
   - name: ⚖️ 负载均衡-散列
     type: load-balance
-    url: http://www.google.com/generate_204
+    url: http://www.apple.com/library/test/success.html
     interval: 300
     strategy: consistent-hashing
     proxies:
       - 1
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
-    url: http://www.google.com/generate_204
+    url: http://www.apple.com/library/test/success.html
     interval: 300
     strategy: round-robin
     proxies:

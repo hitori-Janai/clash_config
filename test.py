@@ -10,19 +10,19 @@ group_path = './config/proxy_group/select.yml'
 group_num = 5
 
 # 读取yml文件
-def read_yml(file_path):
+def readYml(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         yml_data = yaml.safe_load(f)
     return yml_data
 
 # 存储yml文件
-def save_yml(file_path, data):
+def saveYml(file_path, data):
     with open(file_path, 'w', encoding='utf-8') as f:
         yaml.safe_dump(data, f, allow_unicode=True)
 
 # 手动代理组
 def select_group(path, proxies_name):
-    select = read_yml(path)
+    select = readYml(path)
     sel_group(proxies_name, select)
     newp_names = p_group(proxies_name, select)
     load_group(select, newp_names)
