@@ -106,4 +106,5 @@ rules:
   - RULE-SET,gfw,PROXY
   - RULE-SET,greatfire,PROXY
   - RULE-SET,telegramcidr,PROXY
+  - DOMAIN-SUFFIX,bilibili.com,PROXY
   - MATCH,DIRECT
