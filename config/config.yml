@@ -1,2376 +1,504 @@
-allow-lan: true
+allow-lan: 'true'
 external-controller: :9090
 log-level: info
 mode: Rule
-port: 7890
+port: '7890'
 proxies:
 - cipher: aes-256-cfb
-  name: 【A】台湾  VIP 1 - 中华电信
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 18000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n04.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【A】台湾  VIP 2 - 云高
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 17000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n119.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【A】台湾  VIP 3 - 中华电信
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 19000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: s100.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【A】香港  VIP 1 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 15000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n21.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【A】香港  VIP 3 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 11000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n23.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【A】香港  VIP 5 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 12000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n24.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【A】香港  VIP 6 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 13000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n28.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【A】香港  VIP 8 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 14000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n54.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【A】香港 VIP 7 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 16000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n32.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【A】香港 普通 1 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 19000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: ntemp15.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【A】香港 普通 A - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 20000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: ntemp10.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【A】香港 普通 B - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 21000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: ntemp16.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【A】香港 普通 C - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 22000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: ntemp17.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【A】香港 普通 D - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 23000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: ntemp18.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【A】香港 普通 E - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 24000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: ntemp19.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【A】香港 普通 F - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 25000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: ntemp20.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【B】香港  VIP C - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 24000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n43.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【B】香港  VIP F - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 25000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n57.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【B】香港  普通 3 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 20000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n62.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【B】香港 普通 1 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 21000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n06.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【B】香港 普通 1 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 10000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: ntemp01.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【B】香港 普通 2 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 11000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: ntemp02.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【B】香港 普通 3 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 12000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: ntemp03.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【B】香港 普通 4 -  Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 13000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: ntemp04.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【B】香港 普通 5 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 14000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: ntemp05.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【B】香港 普通 6 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 15000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: ntemp06.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【B】香港 普通 7 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 16000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: ntemp07.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【B】香港 普通 8 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 17000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: ntemp08.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【B】香港 普通 9 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 18000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: ntemp09.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【C】日本 VIP W - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 32200
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n22.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【C】日本 VIP Y - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 33200
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n116.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【C】狮城  VIP 6 - 阿里云
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 36000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n48.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【C】狮城  VIP 7 - DO
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 31100
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n47.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【C】狮城 VIP C - 阿里云
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 30001
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n05.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【C】美国 VIP 1 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 44001
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: us5.edge.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【C】美国 VIP 2 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 45000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: us6.edge.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【C】美国 VIP 3 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 46000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: us7.edge.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【C】美国 VIP 4 - CC
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 47000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: us8.edge.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【C】美国 VIP 5 - CC
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 48000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: us9.edge.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【C】美国 VIP 6 - CC
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 49001
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: us10.edge.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【C】美国 普通 1 - CC
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 40000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: us1.edge.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【C】美国 普通 2 - CC
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 41000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: us2.edge.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【C】美国 普通 3 - CC
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 42001
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: us3.edge.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【C】美国 普通 4 - CC
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 43000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: us4.edge.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【C】香港  VIP 9 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 33300
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n37.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【E】俄罗斯  VIP 1 - RT
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 20000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: s102.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【E】俄罗斯  VIP 2 - RT
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 21000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: s103.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【E】俄罗斯  VIP 3 - RT
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 22000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: s104.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【E】俄罗斯  VIP 4 - RT
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 23000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: s105.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【F】土耳其 VIP 1 - Steam
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 37000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: s01.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【F】新加坡  VIP 1 - Linode
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 25000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n17.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【F】新加坡  VIP 8 - Linode
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 18000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n96.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【F】新加坡  VIP 9 - Linode
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 19000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n30.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【F】新加坡  VIP A - Linode
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 20000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n11.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【F】新加坡 VIP B - DO
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 22000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n110.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【F】韩国  VIP 2 - VPC
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 21000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n13.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【GAME】香港  VIP 2 - HGC
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 12000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n09.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【GAME】香港  VIP 3 - HGC
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 13000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n27.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【GAME】香港  VIP 4 - HGC
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 14000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n63.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【GAME】香港  VIP 6 - HGC
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 16000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n92.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【GAME】香港  VIP 8 - HGC
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 23000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n77.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【GAME】香港  VIP 9 - HGC
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 24000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n60.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【GAME】香港 VIP 1 - HGC
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 11000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: ntemp25.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【GAME】香港 VIP 5 - HGC
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 15000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n100.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【GAME】香港 VIP 7 - HGC
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 17000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n114.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【IEPL】香港 普通 1 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 11000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nk1.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【IEPL】香港 普通 2 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 12000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nk2.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【IEPL】香港 普通 3 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 13000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nk3.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【IEPL】香港 普通 4 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 14000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nk4.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【IEPL】香港 普通 5 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 15000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nk5.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【IEPL】香港 普通 6 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 16000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nk6.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【IEPL】香港 普通 7 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 17000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nk7.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【I】日本 VIP 1 - Azure
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 11000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nf1.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【I】日本 VIP 2 - Azure
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 12000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nf2.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【I】日本 VIP 3 - Azure
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 13000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nf3.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【I】日本 VIP 4 - Azure
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 14000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nf4.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【I】日本 VIP 5 - Azure
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 15000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nf5.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【I】日本 VIP 6 - Azure
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 16000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nf6.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【I】日本 VIP 7 - Azure
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 17000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nf7.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【I】日本 VIP 8 - Azure
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 18000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nf8.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【I】日本 VIP 9 - Azure
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 19000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nf9.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【I】日本 VIP A - Azure
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 20000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nf10.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【I】日本 VIP B - Azure
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 21000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nf11.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【I】蒙古 普通 A - MN
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 33000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n170.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【J】香港 VIP 1 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 11000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nj1.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【J】香港 VIP 2 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 12000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nj2.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【J】香港 VIP 3 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 13000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nj3.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【J】香港 VIP 4 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 14000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nj4.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【J】香港 VIP 5 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 15000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nj5.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【J】香港 VIP 6 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 16000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nj6.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【J】香港 VIP 7 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 17000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nj7.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【J】香港 VIP 8 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 18000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nj8.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【J】香港 VIP 9 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 19000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nj9.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【J】香港 VIP A - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 20000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nja.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【J】香港 VIP B - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 21000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: njb.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【J】香港 VIP C - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 22000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: njc.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【J】香港 VIP D - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 23000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: njd.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【J】香港 VIP E - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 24000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nje.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【K】新加坡 普通 1 - DO
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 18000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nk8.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【K】新加坡 普通 2 - DO
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 19000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nk9.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【K】新加坡 普通 3 - DO
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 20000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nka.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【K】新加坡 普通 4 - DO
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 21000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nkb.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【K】新加坡 普通 5 - DO
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 22000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nkc.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【K】新加坡 普通 6 - DO
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 23000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nkd.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【K】新加坡 普通 7 - DO
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 24000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nke.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【L】新加坡  VIP1 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 22000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nl1.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【L】新加坡  VIP2 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 23000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nl2.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【L】新加坡  VIP3 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 24000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nl3.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【L】新加坡  VIP4 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 25000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nl4.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【L】新加坡  VIP5 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 26000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nl5.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【L】新加坡  VIP6 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 27000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nl6.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【L】新加坡  VIP7 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 28000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nl7.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【L】新加坡  VIP8 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 29000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nl8.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【L】新加坡  VIP9 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 30000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nl9.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【L】新加坡  VIPA - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 31000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nla.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【L】马来西亚  VIP 1 - TMNet
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 32000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: s101.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港  VIP F - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 24000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n61.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港  VIP H - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 25000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n67.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港  VIP I - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 26000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n74.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港 VIP 1 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 11000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nm1.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港 VIP 2 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 12000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nm2.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港 VIP 3 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 13000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nm3.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港 VIP 4 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 14000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nm4.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港 VIP 5 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 15000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nm5.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港 VIP 6 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 16000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nm6.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港 VIP 7 - Netflix
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 17000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nm7.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港 VIP 8 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 18000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nm8.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港 VIP 9 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 19000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nm9.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港 VIP A - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 20000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nma.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港 VIP B - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 21000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nmb.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港 VIP C - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 22000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nmc.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港 VIP D - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 23000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nmd.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港 VIP K - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 28000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n93.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港 VIP T - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 29000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n111.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港 VIP X - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 30000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n115.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【M】香港 VIP Z - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 31000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: n117.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP 1 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 35000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp6.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP 10 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 39500
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp15.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP 11 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 39600
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp16.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP 12 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 39700
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp17.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP 13 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 39800
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp18.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP 14 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 39900
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp19.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP 15 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 38100
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp20.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP 2 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 36000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp7.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP 3 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 37000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp8.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP 4 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 38000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp9.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP 5 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 39000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp10.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP 6 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 39100
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp11.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP 7 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 39200
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp12.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP 8 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 39300
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp13.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP 9 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 39400
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp14.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP A - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 40000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nn1.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP B - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 41000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nn2.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP C - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 42000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nn3.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP D - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 43000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nn4.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP E - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 44000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nn5.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP F - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 45000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nn6.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 VIP G - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 46000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nn7.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 普通 1 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 30000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp1.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 普通 2 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 31000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp2.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 普通 3 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 32000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp3.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 普通 4 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 33000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp4.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】日本 普通 5 - Nerocloud
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 34000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: jp5.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】香港 VIP 10 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 53000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nn14.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】香港 VIP 8 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 51000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nn12.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】香港 VIP 9 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 52000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nn13.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】香港 普通 1 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 47000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nn8.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】香港 普通 2 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 48000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nn9.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】香港 普通 3 - Nearoute
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 49000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nna.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【N】香港 普通 4 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 50000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: nn11.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 VIP 1 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 16000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt6.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 VIP 10 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 25000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt15.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 VIP 11 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 31000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt21.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 VIP 12 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 32000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt22.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 VIP 13 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 33000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt23.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 VIP 14 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 34000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt24.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 VIP 15 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 35000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt25.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 VIP 16 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 36000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt26.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 VIP 2 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 17000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt7.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 VIP 3 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 18000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt8.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 VIP 4 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 19000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt9.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 VIP 5 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 20000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt10.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 VIP 6 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 21000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt11.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 VIP 7 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 22000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt12.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 VIP 8 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 23000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt13.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 VIP 9 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 24000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt14.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 普通 1 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 11000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt1.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 普通 10 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 30000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt20.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 普通 2 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 12000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt2.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 普通 3 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 13000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt3.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 普通 4 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 14000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt4.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 普通 5 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 15000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt5.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 普通 6 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 26000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt16.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 普通 7 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 27000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt17.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 普通 8 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 28000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt18.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 【O】香港 普通 9 - Leaseweb
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 29000
-  protocol: auth_aes128_sha1
-  protocol-param: 363494:rmx09S
-  server: opt19.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 新网址：sockboom.one
-  obfs: tls1.2_ticket_auth
+  name: 🇦🇺 _AU_澳大利亚
+  password: Sn5B7jTqr76aCJT8
+  port: '9097'
+  server: 185.167.116.253
+  type: ss
+- alterId: '64'
+  cipher: auto
+  name: _CN_中国
+  port: '50002'
+  server: 112.132.215.189
+  skip-cert-verify: 'false'
+  tls: 'false'
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸 _US_美国
+  network: ws
+  port: '8880'
+  server: cf-lt.sharecentre.online
+  skip-cert-verify: 'false'
+  tls: 'false'
+  type: vmess
+  uuid: e59bd762-dacd-445c-8e2a-e1c5812949cb
+  ws-opts:
+    headers:
+      Host: ssrsub.v10.asuka.buzz
+    path: /api/v3/download.getFile
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸 _US_美国 2
+  network: ws
+  port: '443'
+  server: 172.67.135.55
+  skip-cert-verify: 'false'
+  tls: 'true'
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-opts:
+    headers:
+      Host: oplg1.cfcdn2.xyz
+    path: /AUIKN8AU
+- cipher: aes-256-cfb
+  name: 🇸🇬 _SG_新加坡
+  password: amazonskr05
+  port: '443'
+  server: 13.215.189.221
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇦🇺 _AU_澳大利亚 2
+  password: f8npKgNzdkss2ytn
+  port: '9088'
+  server: 185.167.116.253
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇯🇵 _JP_日本
+  password: doub.io
+  port: '8080'
+  server: 43.207.160.88
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇦🇺 _AU_澳大利亚 3
+  password: rNBfNuuANFCAk7KB
+  port: '9056'
+  server: 185.167.116.38
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇸🇬 _SG_新加坡 2
+  obfs: plain
   obfs-param: ''
-  password: breakwall
-  port: 1
-  protocol: auth_chain_a
+  password: vyunme
+  port: '443'
+  protocol: auth_aes128_sha1
   protocol-param: ''
-  server: www.google.com
+  server: 13.215.27.80
   type: ssr
-  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 _SG_新加坡 3
+  password: amazonskr05
+  port: '443'
+  server: 54.169.113.143
+  type: ss
+- name: 🇺🇸 _US_美国 3
+  password: 4134219f-2384-449c-92e9-50fe8474c30a
+  port: '10086'
+  server: sanjose-d2.4422331.xyz
+  skip-cert-verify: 'false'
+  sni: https://mofa.4422331.xyz
+  type: trojan
+- cipher: aes-256-gcm
+  name: 🇺🇸 _CN_中国->🇺🇸_US_美国
+  password: '114514'
+  port: '30042'
+  server: out.jijifun.com
+  type: ss
+- name: 🇩🇪 _DE_德国
+  password: 5c0eb7b7-6db9-4ff0-a324-62caa9198930
+  port: '443'
+  server: 84.252.121.218
+  skip-cert-verify: 'false'
+  sni: vzwzasc.cn
+  type: trojan
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸 _US_美国 4
+  network: ws
+  port: '443'
+  server: america1.yj2022.ga
+  skip-cert-verify: 'false'
+  tls: 'true'
+  type: vmess
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  ws-opts:
+    headers:
+      Host: america1.yj2022.ga
+    path: /
+- cipher: aes-256-gcm
+  name: 🇹🇼 _CN_中国->🇹🇼_TW_台湾
+  password: '114514'
+  port: '30032'
+  server: out.jijifun.com
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 🇻🇳 _VN_越南
+  network: ws
+  port: '80'
+  server: 103.143.209.42
+  skip-cert-verify: 'false'
+  tls: 'false'
+  type: vmess
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+  ws-opts:
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: _BZ_伯利兹
+  network: ws
+  port: '443'
+  server: 203.30.191.2
+  skip-cert-verify: 'false'
+  tls: 'true'
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-opts:
+    headers:
+      Host: oplg1.cfcdn2.xyz
+    path: /AUIKN8AU
+- cipher: aes-256-cfb
+  name: 🇦🇺 _AU_澳大利亚 4
+  password: UWZQeLRWnkqgkseq
+  port: '9032'
+  server: 185.167.116.38
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇦🇺 _AU_澳大利亚 5
+  password: FAdUvMJUq5vDgKEq
+  port: '9006'
+  server: 185.167.116.38
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇯🇵 _JP_日本 2
+  password: amazonskr05
+  port: '443'
+  server: 43.207.66.114
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: _CN_中国 2
+  port: '31372'
+  server: 106.55.234.95
+  skip-cert-verify: 'false'
+  tls: 'false'
+  type: vmess
+  uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411
+- cipher: aes-256-cfb
+  name: 🇦🇺 _AU_澳大利亚 6
+  password: NvS8N4Vf8qAGPSCL
+  port: '9046'
+  server: 185.167.116.38
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸 _US_美国 5
+  network: ws
+  port: '443'
+  server: vc-usa.181227.xyz
+  skip-cert-verify: 'false'
+  tls: 'true'
+  type: vmess
+  uuid: 2ddcf12d-52fa-4e09-b4f1-c52d5cbee69b
+  ws-opts:
+    headers:
+      Host: vc-usa.181227.xyz
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸 _US_美国 6
+  network: ws
+  port: '443'
+  server: new3.hucloud-dns.xyz
+  skip-cert-verify: 'false'
+  tls: 'true'
+  type: vmess
+  uuid: d8eb886b-05be-4628-f2a2-a7e5b305e35a
+  ws-opts:
+    headers:
+      Host: new3.hucloud-dns.xyz
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸 _US_美国 7
+  network: ws
+  port: '443'
+  server: 172.67.147.152
+  skip-cert-verify: 'false'
+  tls: 'true'
+  type: vmess
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  ws-opts:
+    headers:
+      Host: v2fly.samrta.website
+    path: /chcara
+- cipher: aes-256-cfb
+  name: 🇰🇷 _KR_韩国
+  password: amazonskr05
+  port: '443'
+  server: 43.201.48.212
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡
+  network: ws
+  port: '11410'
+  server: hy.guanguan.club
+  skip-cert-verify: 'false'
+  tls: 'true'
+  type: vmess
+  uuid: 5707bceb-1da9-41e1-bd03-1bb3d1c28a2c
+  ws-opts:
+    headers:
+      Host: sg1.oraclec.pp.ua
+    path: /nba
+- cipher: aes-256-cfb
+  name: 🇦🇺 _AU_澳大利亚 7
+  password: HSZuyJQcWe8dxNdF
+  port: '9043'
+  server: 185.167.116.38
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇦🇺 _AU_澳大利亚 8
+  password: rNBfNuuANFCAk7KB
+  port: '9056'
+  server: 185.167.116.253
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 _KR_韩国 2
+  password: amazonskr05
+  port: '443'
+  server: 43.201.37.176
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 _KR_韩国 3
+  password: amazonskr05
+  port: '443'
+  server: 43.201.70.114
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸 _US_美国 8
+  network: ws
+  port: '443'
+  server: cf-lt.sharecentre.online
+  skip-cert-verify: 'false'
+  tls: 'true'
+  type: vmess
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  ws-opts:
+    headers:
+      Host: kh1.scproxy.top
+    path: /shirker
+- cipher: aes-256-cfb
+  name: 🇦🇺 _AU_澳大利亚 9
+  password: EXN3S3eQpjE7EJu8
+  port: '9027'
+  server: 185.167.116.38
+  type: ss
+- alterId: '0'
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇭🇰 _HK_香港
+  network: http
+  port: '52757'
+  server: 8.218.145.251
+  skip-cert-verify: 'false'
+  tls: 'false'
+  type: vmess
+  uuid: 451d0d8d-6e0b-403c-9fab-937a92f211e2
+- cipher: aes-256-cfb
+  name: 🇦🇺 _AU_澳大利亚 10
+  password: M3t2ZEQcMGRWBjRa
+  port: '9011'
+  server: 185.167.116.38
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: 🇭🇰 _CN_中国->🇭🇰_HK_香港
+  port: '10001'
+  server: 112.33.32.136
+  skip-cert-verify: 'false'
+  tls: 'false'
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+- cipher: aes-256-cfb
+  name: 🇦🇺 _AU_澳大利亚 11
+  password: VP8ZPxQpJtZRCjfZ
+  port: '9080'
+  server: 185.167.116.253
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 _KR_韩国 4
+  password: amazonskr05
+  port: '443'
+  server: 43.201.86.41
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 🇨🇦 _CA_加拿大
+  network: ws
+  port: '443'
+  server: 23.227.38.25
+  skip-cert-verify: 'false'
+  tls: 'true'
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-opts:
+    headers:
+      Host: oplg1.cfcdn2.xyz
+    path: /AUIKN8AU
+- cipher: aes-256-cfb
+  name: 🇦🇺 _AU_澳大利亚 12
+  password: wjTugX3ZtHMB9c3Z
+  port: '9057'
+  server: 185.167.116.253
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇦🇺 _AU_澳大利亚 13
+  password: HSZuyJQcWe8dxNdF
+  port: '9043'
+  server: 185.167.116.253
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸 _US_美国 9
+  password: amazonskr05
+  port: '443'
+  server: 54.186.216.67
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 🇯🇵 _CN_中国->🇯🇵_JP_日本
+  network: ws
+  port: '38301'
+  server: in-jp-1.iivvppnn.info
+  skip-cert-verify: 'false'
+  tls: 'false'
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: www.ivpnpro.net
+    path: /hls/cctv5phd.m3u8
+- alterId: '0'
+  cipher: auto
+  name: _BZ_伯利兹 2
+  network: ws
+  port: '443'
+  server: 203.30.191.20
+  skip-cert-verify: 'false'
+  tls: 'true'
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  ws-opts:
+    headers:
+      Host: clash6.ssr-free.xyz
+    path: /dongtaiwang.com
+- name: 🇯🇵 _JP_日本 3
+  password: df283334-6f6e-4efb-9a8a-b8ecf3040924
+  port: '443'
+  server: 150.66.13.75
+  skip-cert-verify: 'false'
+  sni: tk15.1coinvp.vip
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇺🇸 _US_美国 10
+  password: amazonskr05
+  port: '443'
+  server: 18.237.102.119
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇦🇺 _AU_澳大利亚 14
+  password: cp8pRSUAyLhTfVWH
+  port: '9064'
+  server: 185.167.116.253
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸 _US_美国 11
+  network: ws
+  port: '443'
+  server: 172.67.199.31
+  skip-cert-verify: 'false'
+  tls: 'true'
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  ws-opts:
+    headers:
+      Host: fr1.trump2023.org
+    path: /9JZFDTKE
+- cipher: aes-256-gcm
+  name: 🇹🇼 _CN_中国->🇹🇼_TW_台湾 2
+  password: '114514'
+  port: '30033'
+  server: out.jijifun.com
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸 _US_美国 12
+  network: ws
+  port: '443'
+  server: us1.wanwusheng.me
+  skip-cert-verify: 'false'
+  tls: 'true'
+  type: vmess
+  uuid: 44ceb389-4cea-4ea1-eef9-11ce6f3effe6
+  ws-opts:
+    headers:
+      Host: us1.wanwusheng.me
+    path: /
 proxy-groups:
 - name: 手动选择
   proxies:
-  - 【O】香港 VIP 14 - Leaseweb
-  - 【I】日本 VIP 4 - Azure
-  - 【IEPL】香港 普通 5 - Nearoute
-  - 【E】俄罗斯  VIP 4 - RT
-  - 【B】香港  VIP C - Nearoute
-  - 【C】狮城 VIP C - 阿里云
-  - 【C】美国 VIP 1 - Netflix
-  - 【B】香港 普通 2 - Nearoute
-  - 【I】日本 VIP A - Azure
-  - 【N】日本 VIP 13 - Nerocloud
-  - 【C】美国 普通 3 - CC
-  - 【C】美国 VIP 5 - CC
-  - 【J】香港 VIP 2 - Netflix
-  - 【L】新加坡  VIP7 - Netflix
-  - 【A】香港 普通 C - Nearoute
-  - 【O】香港 VIP 10 - Leaseweb
-  - 【N】日本 VIP 10 - Nerocloud
-  - 【L】新加坡  VIP4 - Netflix
-  - 【O】香港 VIP 4 - Leaseweb
-  - 【A】香港  VIP 8 - Nearoute
-  - 【C】美国 VIP 4 - CC
-  - 【N】香港 VIP 8 - Leaseweb
-  - 【I】日本 VIP 6 - Azure
-  - 【O】香港 普通 6 - Leaseweb
-  - 【GAME】香港  VIP 4 - HGC
-  - 【M】香港 VIP Z - Leaseweb
-  - 【F】新加坡 VIP B - DO
-  - 【N】日本 普通 2 - Nerocloud
-  - 【L】新加坡  VIP2 - Netflix
-  - 【I】日本 VIP 2 - Azure
-  - 【B】香港 普通 5 - Nearoute
-  - 【GAME】香港 VIP 5 - HGC
-  - 【O】香港 普通 3 - Leaseweb
-  - 【O】香港 VIP 6 - Leaseweb
-  - 【O】香港 VIP 3 - Leaseweb
-  - 【J】香港 VIP 6 - Netflix
-  - 【J】香港 VIP 3 - Netflix
-  - 【C】美国 VIP 3 - Netflix
-  - 【GAME】香港  VIP 2 - HGC
-  - 【E】俄罗斯  VIP 1 - RT
-  - 【A】香港 普通 1 - Nearoute
-  - 【A】台湾  VIP 2 - 云高
-  - 【L】新加坡  VIP1 - Netflix
-  - 【N】日本 VIP E - Leaseweb
-  - 【F】韩国  VIP 2 - VPC
-  - 【M】香港  VIP F - Leaseweb
-  - 【K】新加坡 普通 5 - DO
-  - 【I】日本 VIP 1 - Azure
-  - 【C】美国 普通 1 - CC
-  - 【B】香港 普通 1 - Leaseweb
-  - 【N】日本 普通 3 - Nerocloud
-  - 【M】香港  VIP H - Leaseweb
-  - 【GAME】香港  VIP 3 - HGC
-  - 【I】日本 VIP 3 - Azure
-  - 【J】香港 VIP 1 - Netflix
-  - 【E】俄罗斯  VIP 2 - RT
-  - 【K】新加坡 普通 4 - DO
-  - 【M】香港 VIP 4 - Netflix
-  - 【J】香港 VIP D - Netflix
-  - 【C】香港  VIP 9 - Nearoute
-  - 【N】日本 VIP 7 - Nerocloud
-  - 【C】美国 普通 4 - CC
-  - 【C】日本 VIP W - Leaseweb
-  - 【C】狮城  VIP 6 - 阿里云
-  - 【O】香港 普通 5 - Leaseweb
-  - 【J】香港 VIP E - Netflix
-  - 【O】香港 普通 8 - Leaseweb
-  - 【B】香港 普通 9 - Nearoute
-  - 【C】日本 VIP Y - Leaseweb
-  - 【IEPL】香港 普通 2 - Nearoute
-  - 【O】香港 VIP 5 - Leaseweb
-  - 【N】日本 VIP 15 - Nerocloud
-  - 【O】香港 VIP 12 - Leaseweb
-  - 【N】日本 VIP 12 - Nerocloud
-  - 【M】香港 VIP 9 - Leaseweb
-  - 【C】美国 VIP 6 - CC
-  - 【F】土耳其 VIP 1 - Steam
-  - 【O】香港 VIP 16 - Leaseweb
-  - 【GAME】香港 VIP 7 - HGC
-  - 【N】日本 VIP 5 - Nerocloud
-  - 【O】香港 VIP 9 - Leaseweb
-  - 【J】香港 VIP C - Netflix
-  - 【N】日本 普通 4 - Nerocloud
-  - 【O】香港 VIP 2 - Leaseweb
-  - 【B】香港  普通 3 - Nearoute
-  - 【C】美国 VIP 2 - Netflix
-  - 【I】蒙古 普通 A - MN
-  - 【O】香港 普通 1 - Leaseweb
-  - 【N】日本 VIP C - Leaseweb
-  - 【M】香港 VIP X - Leaseweb
-  - 【N】日本 VIP 8 - Nerocloud
-  - 【B】香港 普通 4 -  Nearoute
-  - 【O】香港 普通 10 - Leaseweb
-  - 【N】日本 VIP A - Leaseweb
-  - 【I】日本 VIP 9 - Azure
-  - 【N】日本 VIP 4 - Nerocloud
-  - 【B】香港 普通 7 - Nearoute
-  - 【N】香港 普通 3 - Nearoute
-  - 【K】新加坡 普通 3 - DO
-  - 【A】香港 普通 A - Nearoute
-  - 【IEPL】香港 普通 1 - Nearoute
-  - 【O】香港 VIP 1 - Leaseweb
-  - 【M】香港 VIP 1 - Netflix
-  - 【F】新加坡  VIP A - Linode
-  - 【N】日本 VIP G - Leaseweb
-  - 【K】新加坡 普通 7 - DO
-  - 【M】香港  VIP I - Nearoute
-  - 【A】香港 普通 E - Nearoute
-  - 【O】香港 普通 4 - Leaseweb
-  - 【N】日本 普通 5 - Nerocloud
-  - 【IEPL】香港 普通 6 - Nearoute
-  - 【K】新加坡 普通 1 - DO
-  - 【N】日本 VIP 2 - Nerocloud
-  - 【L】马来西亚  VIP 1 - TMNet
-  - 【K】新加坡 普通 2 - DO
-  - 【A】香港 VIP 7 - Nearoute
-  - 【N】日本 VIP 11 - Nerocloud
-  - 【O】香港 VIP 13 - Leaseweb
-  - 【M】香港 VIP 8 - Leaseweb
-  - 【GAME】香港  VIP 9 - HGC
-  - 【A】台湾  VIP 3 - 中华电信
-  - 【L】新加坡  VIP8 - Netflix
-  - 【B】香港 普通 1 - Nearoute
-  - 【M】香港 VIP A - Leaseweb
-  - 【N】日本 VIP F - Leaseweb
-  - 【N】日本 普通 1 - Nerocloud
-  - 【IEPL】香港 普通 4 - Nearoute
-  - 【N】日本 VIP 6 - Nerocloud
-  - 【N】日本 VIP D - Leaseweb
-  - 【A】香港  VIP 1 - Nearoute
-  - 【GAME】香港 VIP 1 - HGC
-  - 【M】香港 VIP 2 - Netflix
-  - 【N】日本 VIP 3 - Nerocloud
-  - 【M】香港 VIP 6 - Netflix
-  - 【F】新加坡  VIP 9 - Linode
-  - 【O】香港 普通 7 - Leaseweb
-  - 【C】狮城  VIP 7 - DO
-  - 【L】新加坡  VIP9 - Netflix
-  - 【L】新加坡  VIP3 - Netflix
-  - 【N】日本 VIP 9 - Nerocloud
-  - 【M】香港 VIP D - Nearoute
-  - 【B】香港 普通 6 - Nearoute
-  - 【F】新加坡  VIP 8 - Linode
-  - 【A】香港  VIP 5 - Leaseweb
-  - 【L】新加坡  VIP6 - Netflix
-  - 【N】香港 普通 4 - Leaseweb
-  - 【L】新加坡  VIPA - Netflix
-  - 【N】香港 VIP 9 - Nearoute
-  - 【GAME】香港  VIP 8 - HGC
-  - 【J】香港 VIP 7 - Netflix
-  - 新网址：sockboom.one
-  - 【N】日本 VIP B - Leaseweb
-  - 【O】香港 VIP 11 - Leaseweb
-  - 【A】香港  VIP 6 - Leaseweb
-  - 【M】香港 VIP 5 - Netflix
-  - 【J】香港 VIP 5 - Netflix
-  - 【E】俄罗斯  VIP 3 - RT
-  - 【M】香港 VIP 7 - Netflix
-  - 【M】香港 VIP K - Nearoute
-  - 【GAME】香港  VIP 6 - HGC
-  - 【B】香港 普通 3 - Nearoute
-  - 【O】香港 VIP 8 - Leaseweb
-  - 【I】日本 VIP B - Azure
-  - 【IEPL】香港 普通 7 - Nearoute
-  - 【A】台湾  VIP 1 - 中华电信
-  - 【J】香港 VIP 4 - Netflix
-  - 【J】香港 VIP 8 - Netflix
-  - 【A】香港 普通 F - Nearoute
-  - 【A】香港  VIP 3 - Nearoute
-  - 【N】香港 VIP 10 - Leaseweb
-  - 【N】香港 普通 2 - Nearoute
-  - 【IEPL】香港 普通 3 - Nearoute
-  - 【M】香港 VIP C - Leaseweb
-  - 【O】香港 VIP 7 - Leaseweb
-  - 【I】日本 VIP 5 - Azure
-  - 【O】香港 普通 2 - Leaseweb
-  - 【N】香港 普通 1 - Nearoute
-  - 【A】香港 普通 D - Nearoute
-  - 【O】香港 VIP 15 - Leaseweb
-  - 【F】新加坡  VIP 1 - Linode
-  - 【B】香港 普通 8 - Nearoute
-  - 【J】香港 VIP B - Netflix
-  - 【N】日本 VIP 1 - Nerocloud
-  - 【J】香港 VIP 9 - Netflix
-  - 【A】香港 普通 B - Nearoute
-  - 【C】美国 普通 2 - CC
-  - 【I】日本 VIP 8 - Azure
-  - 【J】香港 VIP A - Netflix
-  - 【M】香港 VIP B - Leaseweb
-  - 【M】香港 VIP 3 - Netflix
-  - 【B】香港  VIP F - Nearoute
-  - 【M】香港 VIP T - Leaseweb
-  - 【I】日本 VIP 7 - Azure
-  - 【N】日本 VIP 14 - Nerocloud
-  - 【O】香港 普通 9 - Leaseweb
-  - 【L】新加坡  VIP5 - Netflix
-  - 【K】新加坡 普通 6 - DO
+  - 🇺🇸 _US_美国 2
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+  - 🇺🇸 _CN_中国->🇺🇸_US_美国
+  - 🇦🇺 _AU_澳大利亚 2
+  - 🇦🇺 _AU_澳大利亚 6
+  - 🇦🇺 _AU_澳大利亚 9
+  - 🇸🇬 _SG_新加坡
+  - _CN_中国 2
+  - 🇦🇺 _AU_澳大利亚 14
+  - 🇺🇸 _US_美国 8
+  - 🇭🇰 _HK_香港
+  - 🇦🇺 _AU_澳大利亚 3
+  - 🇸🇬 _SG_新加坡 3
+  - 🇺🇸 _US_美国
+  - 🇦🇺 _AU_澳大利亚
+  - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡
+  - 🇹🇼 _CN_中国->🇹🇼_TW_台湾 2
+  - 🇰🇷 _KR_韩国 3
+  - 🇺🇸 _US_美国 12
+  - 🇺🇸 _US_美国 7
+  - 🇺🇸 _US_美国 11
+  - 🇦🇺 _AU_澳大利亚 10
+  - 🇦🇺 _AU_澳大利亚 13
+  - 🇺🇸 _US_美国 10
+  - 🇦🇺 _AU_澳大利亚 5
+  - 🇻🇳 _VN_越南
+  - 🇦🇺 _AU_澳大利亚 12
+  - 🇯🇵 _JP_日本 3
+  - 🇹🇼 _CN_中国->🇹🇼_TW_台湾
+  - 🇺🇸 _US_美国 3
+  - 🇨🇦 _CA_加拿大
+  - _BZ_伯利兹 2
+  - 🇩🇪 _DE_德国
+  - 🇦🇺 _AU_澳大利亚 8
+  - 🇺🇸 _US_美国 4
+  - 🇦🇺 _AU_澳大利亚 11
+  - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+  - 🇦🇺 _AU_澳大利亚 4
+  - _CN_中国
+  - 🇰🇷 _KR_韩国 4
+  - 🇯🇵 _JP_日本 2
+  - 🇺🇸 _US_美国 6
+  - 🇺🇸 _US_美国 9
+  - _BZ_伯利兹
+  - 🇦🇺 _AU_澳大利亚 7
+  - 🇺🇸 _US_美国 5
+  - 🇰🇷 _KR_韩国 2
+  - 🇸🇬 _SG_新加坡 2
+  - 🇰🇷 _KR_韩国
+  - 🇯🇵 _JP_日本
   type: select
 - name: PROXY
   proxies:
@@ -2379,7 +507,7 @@ proxy-groups:
   - 手动选择
   - DIRECT
   type: select
-- interval: 300
+- interval: '300'
   name: ⚖️ 负载均衡-散列
   proxies: &id001
   - p0
@@ -2390,316 +518,169 @@ proxy-groups:
   strategy: consistent-hashing
   type: load-balance
   url: http://www.apple.com/library/test/success.html
-- interval: 300
+- interval: '300'
   name: ⚖️ 负载均衡-轮询
   proxies: *id001
   strategy: round-robin
   type: load-balance
   url: http://www.apple.com/library/test/success.html
-- interval: 500
+- interval: '500'
   name: p0
   proxies:
-  - 【O】香港 VIP 14 - Leaseweb
-  - 【I】日本 VIP 4 - Azure
-  - 【IEPL】香港 普通 5 - Nearoute
-  - 【E】俄罗斯  VIP 4 - RT
-  - 【B】香港  VIP C - Nearoute
-  - 【C】狮城 VIP C - 阿里云
-  - 【C】美国 VIP 1 - Netflix
-  - 【B】香港 普通 2 - Nearoute
-  - 【I】日本 VIP A - Azure
-  - 【N】日本 VIP 13 - Nerocloud
-  - 【C】美国 普通 3 - CC
-  - 【C】美国 VIP 5 - CC
-  - 【J】香港 VIP 2 - Netflix
-  - 【L】新加坡  VIP7 - Netflix
-  - 【A】香港 普通 C - Nearoute
-  - 【O】香港 VIP 10 - Leaseweb
-  - 【N】日本 VIP 10 - Nerocloud
-  - 【L】新加坡  VIP4 - Netflix
-  - 【O】香港 VIP 4 - Leaseweb
-  - 【A】香港  VIP 8 - Nearoute
-  - 【C】美国 VIP 4 - CC
-  - 【N】香港 VIP 8 - Leaseweb
-  - 【I】日本 VIP 6 - Azure
-  - 【O】香港 普通 6 - Leaseweb
-  - 【GAME】香港  VIP 4 - HGC
-  - 【M】香港 VIP Z - Leaseweb
-  - 【F】新加坡 VIP B - DO
-  - 【N】日本 普通 2 - Nerocloud
-  - 【L】新加坡  VIP2 - Netflix
-  - 【I】日本 VIP 2 - Azure
-  - 【B】香港 普通 5 - Nearoute
-  - 【GAME】香港 VIP 5 - HGC
-  - 【O】香港 普通 3 - Leaseweb
-  - 【O】香港 VIP 6 - Leaseweb
-  - 【O】香港 VIP 3 - Leaseweb
-  - 【J】香港 VIP 6 - Netflix
-  - 【J】香港 VIP 3 - Netflix
-  - 【C】美国 VIP 3 - Netflix
-  - 【GAME】香港  VIP 2 - HGC
-  - 【E】俄罗斯  VIP 1 - RT
+  - 🇺🇸 _US_美国 2
+  - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+  - 🇺🇸 _CN_中国->🇺🇸_US_美国
+  - 🇦🇺 _AU_澳大利亚 2
+  - 🇦🇺 _AU_澳大利亚 6
+  - 🇦🇺 _AU_澳大利亚 9
+  - 🇸🇬 _SG_新加坡
+  - _CN_中国 2
+  - 🇦🇺 _AU_澳大利亚 14
+  - 🇺🇸 _US_美国 8
   type: url-test
   url: http://www.apple.com/library/test/success.html
-- interval: 500
+- interval: '500'
   name: p1
   proxies:
-  - 【A】香港 普通 1 - Nearoute
-  - 【A】台湾  VIP 2 - 云高
-  - 【L】新加坡  VIP1 - Netflix
-  - 【N】日本 VIP E - Leaseweb
-  - 【F】韩国  VIP 2 - VPC
-  - 【M】香港  VIP F - Leaseweb
-  - 【K】新加坡 普通 5 - DO
-  - 【I】日本 VIP 1 - Azure
-  - 【C】美国 普通 1 - CC
-  - 【B】香港 普通 1 - Leaseweb
-  - 【N】日本 普通 3 - Nerocloud
-  - 【M】香港  VIP H - Leaseweb
-  - 【GAME】香港  VIP 3 - HGC
-  - 【I】日本 VIP 3 - Azure
-  - 【J】香港 VIP 1 - Netflix
-  - 【E】俄罗斯  VIP 2 - RT
-  - 【K】新加坡 普通 4 - DO
-  - 【M】香港 VIP 4 - Netflix
-  - 【J】香港 VIP D - Netflix
-  - 【C】香港  VIP 9 - Nearoute
-  - 【N】日本 VIP 7 - Nerocloud
-  - 【C】美国 普通 4 - CC
-  - 【C】日本 VIP W - Leaseweb
-  - 【C】狮城  VIP 6 - 阿里云
-  - 【O】香港 普通 5 - Leaseweb
-  - 【J】香港 VIP E - Netflix
-  - 【O】香港 普通 8 - Leaseweb
-  - 【B】香港 普通 9 - Nearoute
-  - 【C】日本 VIP Y - Leaseweb
-  - 【IEPL】香港 普通 2 - Nearoute
-  - 【O】香港 VIP 5 - Leaseweb
-  - 【N】日本 VIP 15 - Nerocloud
-  - 【O】香港 VIP 12 - Leaseweb
-  - 【N】日本 VIP 12 - Nerocloud
-  - 【M】香港 VIP 9 - Leaseweb
-  - 【C】美国 VIP 6 - CC
-  - 【F】土耳其 VIP 1 - Steam
-  - 【O】香港 VIP 16 - Leaseweb
-  - 【GAME】香港 VIP 7 - HGC
-  - 【N】日本 VIP 5 - Nerocloud
+  - 🇭🇰 _HK_香港
+  - 🇦🇺 _AU_澳大利亚 3
+  - 🇸🇬 _SG_新加坡 3
+  - 🇺🇸 _US_美国
+  - 🇦🇺 _AU_澳大利亚
+  - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡
+  - 🇹🇼 _CN_中国->🇹🇼_TW_台湾 2
+  - 🇰🇷 _KR_韩国 3
+  - 🇺🇸 _US_美国 12
+  - 🇺🇸 _US_美国 7
   type: url-test
   url: http://www.apple.com/library/test/success.html
-- interval: 500
+- interval: '500'
   name: p2
   proxies:
-  - 【O】香港 VIP 9 - Leaseweb
-  - 【J】香港 VIP C - Netflix
-  - 【N】日本 普通 4 - Nerocloud
-  - 【O】香港 VIP 2 - Leaseweb
-  - 【B】香港  普通 3 - Nearoute
-  - 【C】美国 VIP 2 - Netflix
-  - 【I】蒙古 普通 A - MN
-  - 【O】香港 普通 1 - Leaseweb
-  - 【N】日本 VIP C - Leaseweb
-  - 【M】香港 VIP X - Leaseweb
-  - 【N】日本 VIP 8 - Nerocloud
-  - 【B】香港 普通 4 -  Nearoute
-  - 【O】香港 普通 10 - Leaseweb
-  - 【N】日本 VIP A - Leaseweb
-  - 【I】日本 VIP 9 - Azure
-  - 【N】日本 VIP 4 - Nerocloud
-  - 【B】香港 普通 7 - Nearoute
-  - 【N】香港 普通 3 - Nearoute
-  - 【K】新加坡 普通 3 - DO
-  - 【A】香港 普通 A - Nearoute
-  - 【IEPL】香港 普通 1 - Nearoute
-  - 【O】香港 VIP 1 - Leaseweb
-  - 【M】香港 VIP 1 - Netflix
-  - 【F】新加坡  VIP A - Linode
-  - 【N】日本 VIP G - Leaseweb
-  - 【K】新加坡 普通 7 - DO
-  - 【M】香港  VIP I - Nearoute
-  - 【A】香港 普通 E - Nearoute
-  - 【O】香港 普通 4 - Leaseweb
-  - 【N】日本 普通 5 - Nerocloud
-  - 【IEPL】香港 普通 6 - Nearoute
-  - 【K】新加坡 普通 1 - DO
-  - 【N】日本 VIP 2 - Nerocloud
-  - 【L】马来西亚  VIP 1 - TMNet
-  - 【K】新加坡 普通 2 - DO
-  - 【A】香港 VIP 7 - Nearoute
-  - 【N】日本 VIP 11 - Nerocloud
-  - 【O】香港 VIP 13 - Leaseweb
-  - 【M】香港 VIP 8 - Leaseweb
+  - 🇺🇸 _US_美国 11
+  - 🇦🇺 _AU_澳大利亚 10
+  - 🇦🇺 _AU_澳大利亚 13
+  - 🇺🇸 _US_美国 10
+  - 🇦🇺 _AU_澳大利亚 5
+  - 🇻🇳 _VN_越南
+  - 🇦🇺 _AU_澳大利亚 12
+  - 🇯🇵 _JP_日本 3
+  - 🇹🇼 _CN_中国->🇹🇼_TW_台湾
+  - 🇺🇸 _US_美国 3
   type: url-test
   url: http://www.apple.com/library/test/success.html
-- interval: 500
+- interval: '500'
   name: p3
   proxies:
-  - 【GAME】香港  VIP 9 - HGC
-  - 【A】台湾  VIP 3 - 中华电信
-  - 【L】新加坡  VIP8 - Netflix
-  - 【B】香港 普通 1 - Nearoute
-  - 【M】香港 VIP A - Leaseweb
-  - 【N】日本 VIP F - Leaseweb
-  - 【N】日本 普通 1 - Nerocloud
-  - 【IEPL】香港 普通 4 - Nearoute
-  - 【N】日本 VIP 6 - Nerocloud
-  - 【N】日本 VIP D - Leaseweb
-  - 【A】香港  VIP 1 - Nearoute
-  - 【GAME】香港 VIP 1 - HGC
-  - 【M】香港 VIP 2 - Netflix
-  - 【N】日本 VIP 3 - Nerocloud
-  - 【M】香港 VIP 6 - Netflix
-  - 【F】新加坡  VIP 9 - Linode
-  - 【O】香港 普通 7 - Leaseweb
-  - 【C】狮城  VIP 7 - DO
-  - 【L】新加坡  VIP9 - Netflix
-  - 【L】新加坡  VIP3 - Netflix
-  - 【N】日本 VIP 9 - Nerocloud
-  - 【M】香港 VIP D - Nearoute
-  - 【B】香港 普通 6 - Nearoute
-  - 【F】新加坡  VIP 8 - Linode
-  - 【A】香港  VIP 5 - Leaseweb
-  - 【L】新加坡  VIP6 - Netflix
-  - 【N】香港 普通 4 - Leaseweb
-  - 【L】新加坡  VIPA - Netflix
-  - 【N】香港 VIP 9 - Nearoute
-  - 【GAME】香港  VIP 8 - HGC
-  - 【J】香港 VIP 7 - Netflix
-  - 新网址：sockboom.one
-  - 【N】日本 VIP B - Leaseweb
-  - 【O】香港 VIP 11 - Leaseweb
-  - 【A】香港  VIP 6 - Leaseweb
-  - 【M】香港 VIP 5 - Netflix
-  - 【J】香港 VIP 5 - Netflix
-  - 【E】俄罗斯  VIP 3 - RT
-  - 【M】香港 VIP 7 - Netflix
+  - 🇨🇦 _CA_加拿大
+  - _BZ_伯利兹 2
+  - 🇩🇪 _DE_德国
+  - 🇦🇺 _AU_澳大利亚 8
+  - 🇺🇸 _US_美国 4
+  - 🇦🇺 _AU_澳大利亚 11
+  - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+  - 🇦🇺 _AU_澳大利亚 4
+  - _CN_中国
+  - 🇰🇷 _KR_韩国 4
   type: url-test
   url: http://www.apple.com/library/test/success.html
-- interval: 500
+- interval: '500'
   name: p4
   proxies:
-  - 【M】香港 VIP K - Nearoute
-  - 【GAME】香港  VIP 6 - HGC
-  - 【B】香港 普通 3 - Nearoute
-  - 【O】香港 VIP 8 - Leaseweb
-  - 【I】日本 VIP B - Azure
-  - 【IEPL】香港 普通 7 - Nearoute
-  - 【A】台湾  VIP 1 - 中华电信
-  - 【J】香港 VIP 4 - Netflix
-  - 【J】香港 VIP 8 - Netflix
-  - 【A】香港 普通 F - Nearoute
-  - 【A】香港  VIP 3 - Nearoute
-  - 【N】香港 VIP 10 - Leaseweb
-  - 【N】香港 普通 2 - Nearoute
-  - 【IEPL】香港 普通 3 - Nearoute
-  - 【M】香港 VIP C - Leaseweb
-  - 【O】香港 VIP 7 - Leaseweb
-  - 【I】日本 VIP 5 - Azure
-  - 【O】香港 普通 2 - Leaseweb
-  - 【N】香港 普通 1 - Nearoute
-  - 【A】香港 普通 D - Nearoute
-  - 【O】香港 VIP 15 - Leaseweb
-  - 【F】新加坡  VIP 1 - Linode
-  - 【B】香港 普通 8 - Nearoute
-  - 【J】香港 VIP B - Netflix
-  - 【N】日本 VIP 1 - Nerocloud
-  - 【J】香港 VIP 9 - Netflix
-  - 【A】香港 普通 B - Nearoute
-  - 【C】美国 普通 2 - CC
-  - 【I】日本 VIP 8 - Azure
-  - 【J】香港 VIP A - Netflix
-  - 【M】香港 VIP B - Leaseweb
-  - 【M】香港 VIP 3 - Netflix
-  - 【B】香港  VIP F - Nearoute
-  - 【M】香港 VIP T - Leaseweb
-  - 【I】日本 VIP 7 - Azure
-  - 【N】日本 VIP 14 - Nerocloud
-  - 【O】香港 普通 9 - Leaseweb
-  - 【L】新加坡  VIP5 - Netflix
-  - 【K】新加坡 普通 6 - DO
+  - 🇯🇵 _JP_日本 2
+  - 🇺🇸 _US_美国 6
+  - 🇺🇸 _US_美国 9
+  - _BZ_伯利兹
+  - 🇦🇺 _AU_澳大利亚 7
+  - 🇺🇸 _US_美国 5
+  - 🇰🇷 _KR_韩国 2
+  - 🇸🇬 _SG_新加坡 2
+  - 🇰🇷 _KR_韩国
+  - 🇯🇵 _JP_日本
   type: url-test
   url: http://www.apple.com/library/test/success.html
 rule-providers:
   apple:
     behavior: domain
-    interval: 86400
+    interval: '86400'
     path: ./ruleset/apple.yaml
     type: http
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt
   applications:
     behavior: classical
-    interval: 86400
+    interval: '86400'
     path: ./ruleset/applications.yaml
     type: http
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt
   cncidr:
     behavior: ipcidr
-    interval: 86400
+    interval: '86400'
     path: ./ruleset/cncidr.yaml
     type: http
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
   direct:
     behavior: domain
-    interval: 86400
+    interval: '86400'
     path: ./ruleset/direct.yaml
     type: http
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt
   gfw:
     behavior: domain
-    interval: 86400
+    interval: '86400'
     path: ./ruleset/gfw.yaml
     type: http
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt
   google:
     behavior: domain
-    interval: 86400
+    interval: '86400'
     path: ./ruleset/google.yaml
     type: http
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt
   greatfire:
     behavior: domain
-    interval: 86400
+    interval: '86400'
     path: ./ruleset/greatfire.yaml
     type: http
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/greatfire.txt
   icloud:
     behavior: domain
-    interval: 86400
+    interval: '86400'
     path: ./ruleset/icloud.yaml
     type: http
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt
   lancidr:
     behavior: ipcidr
-    interval: 86400
+    interval: '86400'
     path: ./ruleset/lancidr.yaml
     type: http
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
   private:
     behavior: domain
-    interval: 86400
+    interval: '86400'
     path: ./ruleset/private.yaml
     type: http
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt
   proxy:
     behavior: domain
-    interval: 86400
+    interval: '86400'
     path: ./ruleset/proxy.yaml
     type: http
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt
   reject:
     behavior: domain
-    interval: 86400
+    interval: '86400'
     path: ./ruleset/reject.yaml
     type: http
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
   telegramcidr:
     behavior: ipcidr
-    interval: 86400
+    interval: '86400'
     path: ./ruleset/telegramcidr.yaml
     type: http
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt
   tld-not-cn:
     behavior: domain
-    interval: 86400
+    interval: '86400'
     path: ./ruleset/tld-not-cn.yaml
     type: http
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt
@@ -2715,4 +696,4 @@ rules:
 - RULE-SET,telegramcidr,PROXY
 - DOMAIN-SUFFIX,bilibili.com,PROXY
 - MATCH,DIRECT
-socks-port: 7891
+socks-port: '7891'
