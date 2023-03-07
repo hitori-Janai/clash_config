@@ -3,8 +3,6 @@ module.exports.parse = async (
   { axios, yaml, notify, console },
   { name, url, interval, selected }
 ) => {
-  var math = require("mathjs");
-
   const obj = yaml.parse(raw);
 
   let group_str = `
@@ -17,7 +15,7 @@ module.exports.parse = async (
       `;
   // 插入p0~p4组
   let p_group = [];
-  let num = math.ceil(obj["proxies"].length / 5);
+  let num = Math.ceil(obj["proxies"].length / 5);
   let p;
   for (let i = 0; i < obj["proxies"].length; i++) {
     if (i % num == 0) {
@@ -37,6 +35,6 @@ module.exports.parse = async (
   let group_load = yaml.parse(group_str);
   group_load["proxies"] = p_group.map((p) => p.name);
   obj["proxy-groups"].push(group_load);
-  obj["proxy-groups"][1].proxies.unshift('⚖️ 负载均衡-散列')
+  obj["proxy-groups"][1].proxies.unshift("⚖️ 负载均衡-散列");
   return yaml.stringify(obj);
 };
